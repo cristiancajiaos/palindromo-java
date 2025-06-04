@@ -50,6 +50,7 @@ public class Vista extends javax.swing.JFrame {
         etiquetaResultado.setText("Los textos no son palíndromos");
 
         btnVerificarTextos.setText("Verificar");
+        btnVerificarTextos.setEnabled(false);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

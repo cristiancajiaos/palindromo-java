@@ -43,6 +43,9 @@ public class Modelo {
         String texto2Armado = String.valueOf(charTexto2);
 
         this.setSonPalindromos(texto1.equals(texto2Armado));
+        System.out.println("Texto 1: " + texto1);
+        System.out.println("Texto 2 invertido: " + texto2Armado);
+        System.out.println("Son palindromos?: " + (this.isSonPalindromos() ? "Si" : "No"));
         return this.isSonPalindromos();
     }
 }
